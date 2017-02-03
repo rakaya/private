@@ -1,0 +1,33 @@
+<div class="topicContainer">
+<div class="topic clearfix">
+<div class="topicDate">
+<time datetime="{time}">{days}</time>
+</div>
+<div class="topicRight">
+<h2 class="topicTitle">
+<a href="{link}" title="{title}">{title}</a>
+</h2>
+<a href="{link}" title="{title}" class="topicSentence">
+<p>{sentence1}</p>
+<p>{sentence2}</p>
+<p>{sentence3}</p>
+<p>{sentence4}</p>
+<p>{sentence5}</p>
+</a>
+<div class="topicRead">
+<svg viewbox="300 400 120 30" preserveaspectratio="none">
+<a xlink:href="{link}" title="{title}">
+<use xlink:href="#readMore"/>
+</a>
+</svg>
+</div>
+</div>
+<div class="topicLeft">
+<div class="topicImage">
+<a href="{link}" title="{title}">
+<img src="{thumbSrc}" alt="サムネ画像">
+</a>
+</div>
+</div>
+</div>
+</div>

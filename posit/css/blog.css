@@ -1,0 +1,182 @@
+/* ==========================================================================
+main
+========================================================================== */
+#main{
+/*    background: #cfc;*/
+/*    padding-bottom: 0px;*/
+}
+#topic{
+    /* ▼空間設定*/
+    float:left;
+    width: 600px;
+    margin-top: 50px;    
+    /*        background: #b7d01b;*/
+    /*    height:500px;    */
+}
+#twitter{
+    /* ▼空間設定*/
+    float: left;
+    width: 320px;
+    margin-top:50px;
+    padding: 0px 20px;
+    /*    background: #ff8585;*/
+}
+/* ==========================================================================
+page
+========================================================================== */
+#page_ctrl{
+    /* ▼空間設定*/
+    width:100%;
+    /*その他*/
+    /*マージン相殺防止策*/
+    clear: both;
+    overflow: hidden;   
+    /*inline-block隙間対策(改行、タブが空白となる)*/
+    font-size: 0;
+    /*    background:#ff0;*/
+}
+#page_ctrl > *{
+    /*inline-block隙間対策(改行、タブが空白となる)*/
+}
+#page_before{
+    /*    float :left;*/
+    /*    background: #f00;*/
+}
+#page_first{
+    /*    background: #f0f;*/
+}
+#page_prev{
+    /*    background: #0ff;*/
+}
+#page_number{
+    /*    background: #fff;*/
+}
+#page_after{
+    /*    float :right;*/
+    /*    background: #f00;*/
+}
+#page_next{
+    /*    background: #0ff;*/
+}
+#page_last{
+    /*    background: #f0f;*/
+
+}
+#page_ctrl ul{
+    /* ▼空間設定*/
+    display: inline-block;    
+    margin:  20px 0px;
+    padding: 0;
+    text-align: center;
+    /*    font-size: 0;*/
+}
+#page_ctrl li{ 
+    /* ▼背景設定*/
+    background: #fff;
+    /* ▼空間設定*/
+    display: inline-block;    
+    margin:  0px 5px;
+    padding: 5px 10px;  
+    /* ▼文字設定*/
+    font-size: 14px; 
+    text-decoration: none;
+    vertical-align: middle;
+    /* ▼装飾線*/
+    border: 5px solid #aaf;
+}
+#page_ctrl li:hover{
+    /* ▼ホバー時のカーソル設定*/
+    cursor: pointer;
+}
+/* 先頭あるいは末尾ページ表示中のボタンスタイル */
+.terminal {
+    visibility: hidden!important;
+    /*
+    color: #ff0 !important;
+    cursor: default !important;
+    color: #ff0 !important;
+    background: #ff0 !important;
+    */
+}
+.current{
+    font-weight: bold;
+}
+/* ==========================================================================
+page
+========================================================================== */
+#pager{
+    /* ▼空間設定*/
+    width:100%;
+    /*その他*/
+    /*マージン相殺防止策*/
+    clear: both;
+/*    overflow: hidden;   */
+    /*inline-block隙間対策(改行、タブが空白となる)*/
+    font-size: 0;
+/*    background:#ff0;*/
+    padding: 10px 0px;
+}
+#pager li{
+    /* ▼背景設定*/
+    background: #fff;
+    /* ▼空間設定*/
+    display: inline-block;    
+    margin:  0px 5px;
+    padding: 5px 10px;  
+    /* ▼文字設定*/
+    font-size: 14px; 
+    text-decoration: none;
+    vertical-align: middle;
+    /* ▼装飾線*/
+    border: 5px solid #aaf;    
+}
+#pager li:not(.ellipPrev):not(.ellipNext) {
+/*    background: #0ff !important;*/
+    /* ▽その他*/
+    cursor:pointer;
+}
+.current{
+    color: white;
+    background: #646464 !important;
+    font-weight: bold;
+}
+/* ==========================================================================
+blog(GIGAGINE)保存よう、ブラッシュ時に消去予定
+========================================================================== */
+#next_page{
+    /* ▼空間設定*/
+    width:100%;
+    /*その他*/
+    /*マージン相殺防止策*/
+    clear: both;
+    overflow: hidden;    
+}
+#warp_next_page{   
+    /* ▼空間設定*/
+    width:100%;
+    margin: 15px auto;    
+
+    /*    background:#ff0;*/
+}
+#next_page a{
+    /* ▼画像設定*/
+    background:#f0f0f0;
+    /* ▼空間設定*/ 
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    display: block;
+    /* ▼文字設定*/
+    text-align: center;
+    line-height: 24px;
+    font-weight: bolder;    
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    /* ▼装飾線*/
+    border-bottom: 5px solid rgba(0,0,0,0.25);
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;    
+    -moz-box-shadow:0 -1px 1px rgba(0,0,0,0.25);
+    -webkit-box-shadow : 0px -1px 1px rgba(0,0,0,0.14);   
+
+    /*    background:#ff0;*/
+}

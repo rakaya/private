@@ -1,0 +1,23 @@
+/* ==========================================================================
+main
+========================================================================== */
+#main{
+    /*    background: #cfc;*/
+    /*    padding-bottom: 0px;*/
+}
+#topic{
+    /* ▼空間設定*/
+    float:left;
+    width: 600px;
+    margin-top: 50px;    
+    /*        background: #b7d01b;*/
+    /*    height:500px;    */
+}
+#twitter{
+    /* ▼空間設定*/
+    float: left;
+    width: 320px;
+    margin-top:50px;
+    padding: 0px 20px;
+    /*    background: #ff8585;*/
+}

@@ -1,0 +1,23 @@
+# editorconfig.org
+# IDEの設定ファイル
+root = true
+##
+##[*]全てのファイルを大賞
+##
+[*]
+#文字コード
+charset = utf-8
+#タブサイズ
+indent_size = 4
+#インデントスタイル
+indent_style = space
+#改行文字保管
+insert_final_newline = true
+#行末の間違って記入した空白を削除
+trim_trailing_whitespace = true
+##
+##md設定
+##
+[*.md]
+#行末空白削除しない。
+trim_trailing_whitespace = false

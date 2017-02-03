@@ -1,0 +1,90 @@
+/* ==========================================================================
+topic
+========================================================================== */
+.topicContainer{
+    /* ▼画像設定*/
+    background: url(../img/topic_back.svg) no-repeat;
+    background-size: 600px 270px;
+    /* ▼空間設定*/
+    width:600px;
+    height: 270px;   
+    margin-bottom: 50px;
+    /*その他*/
+    /*マージン相殺防止策*/
+    overflow: hidden;
+    /*    background: #f0f;*/
+}
+.topic{ 
+    width: 580px;
+    height: 245px;
+    margin: 25px 0px 0px 15px;
+    /*    background: #0ff;*/
+}
+.topicDate{
+    height: 25px;
+    text-align: left;
+    line-height: 20px;   
+    /*    background: #000;*/
+}
+.topicRight{
+    /* ▼空間設定*/
+    float:right;
+    width:320px;
+    max-height:225px;
+    height: 200px;
+    /*        background: #f0f;*/
+}
+.topicTitle{
+    /* ▼空間設定*/
+    padding-left: 5px;
+    margin-right: 20px;
+    /* ▼文字設定*/
+    line-height: 24px;
+    text-align: left;
+    /* ▼装飾線*/
+    border-left: 10px solid #387083;
+    border-bottom:  3px solid #4cc79d;
+    /*    background: #b7d01b;*/
+}
+.topicSentence{
+    /* ▼空間設定*/
+    display: block; /*リンクなのでblockにしないと余白が効かない*/
+    padding: 0 25px 0 15px;
+    margin: 5px 0 15px 0;
+}
+.topicSentence p {   
+    /* ▼文字設定*/
+    text-align: left;
+    font-size: 15px;
+    line-height: 24px;
+    /* ▼装飾線*/
+    border-bottom:  1px solid #4cc79d;
+}
+.topicRead{
+    /*    background: #b7d01b;*/
+    /* ▼空間設定*/
+    float: right;
+    padding-right: 10px;
+}
+.topicRead svg{
+/*    background: #b7d01b;*/
+    /* ▼空間設定*/
+    width : 120px;
+    height: 30px;
+}
+.topicLeft{
+    /* ▼空間設定*/
+    float:left;
+    width:250px;
+    max-height:225px;
+    height: 200px;
+    /*    background: #0ff;*/
+}
+.topicImage img{
+    /* ▼空間設定*/
+    width:225px;/*固定*/
+    height:173px;/*固定*/
+    /* ▼装飾線*/
+    border: 1px solid #000;
+    /*        background: #b7d01b;*/
+}
