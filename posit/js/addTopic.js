@@ -55,10 +55,10 @@
         //
         //変数宣言
         //
-        var $this      = $(this);           //blogタグ
-        var current     = o.current;        //現在のページ数
+        var $this     = $(this);           //blogタグ
+        var current   = o.current;        //現在のページ数
         var topicData = o.topicData;    //articleデータ
-        var topicDisp = 1;    //article表示数
+        var topicDisp = o.topicDisp;    //article表示数
 //        var json = JSON.parse(topicData);
         if(topicDisp > topicData.length){
             topicDisp = topicData.length;
